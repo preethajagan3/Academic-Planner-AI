@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';
-import axios from 'axios';
+import api from '../services/api';
 import { SparkleChatIcon, XIcon, BrainIcon } from './Icons';
 
 const Chatbot = () => {
@@ -33,17 +33,14 @@ const Chatbot = () => {
         setIsLoading(true);
 
         try {
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
-
-            const response = await axios.post('/api/chat', {
+            const response = await api.post('/chat', {
                 message: userMessage,
                 context: { user: user?.name, date: new Date().toLocaleDateString() }
-            }, config);
+            });
 
             setMessages(prev => [...prev, { role: 'assistant', content: response.data.reply }]);
         } catch (error) {
+
             console.error("Chatbot Error:", error);
             const data = error.response?.data;
             let displayMsg = data?.message || "I'm having trouble connecting to the AI.";
