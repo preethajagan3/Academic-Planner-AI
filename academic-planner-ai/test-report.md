@@ -85,8 +85,6 @@ All critical paths including key user flows, API integrations, and UI responsive
 
 ## 5. Visual Evidence (Screenshots)
 
-*(Placeholders for actual screenshots - Please insert images here)*
-
 ### 📸 Dashboard (Light Mode)
 ![alt text](image.png)
 
@@ -136,3 +134,4 @@ The **Academic Planner AI** currently meets all core requirements. The applicati
 
 **Signed:**
 *Automated Test Generator*
+
