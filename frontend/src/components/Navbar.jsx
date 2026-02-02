@@ -27,7 +27,7 @@ const Navbar = () => {
           className="flex items-center gap-4 cursor-pointer group"
           onClick={() => navigate('/')}
         >
-          <div className="w-12 h-12 bg-emerald-600 rounded-2xl flex items-center justify-center text-white shadow-xl shadow-emerald-500/30 group-hover:scale-110 transition-all duration-500">
+          <div className="w-12 h-12 bg-violet-600 rounded-2xl flex items-center justify-center text-white shadow-xl shadow-violet-500/30 group-hover:scale-110 transition-all duration-500">
             <BookIcon className="w-7 h-7" />
           </div>
           <div className="hidden sm:block">
@@ -49,18 +49,19 @@ const Navbar = () => {
           <div className="flex items-center gap-4 pl-6 border-l border-slate-200">
             <button
               onClick={handleLogout}
-              className="px-6 py-3 bg-slate-50 hover:bg-emerald-600 text-slate-700 hover:text-white rounded-2xl font-black text-sm uppercase tracking-wider transition-all shadow-sm hover:shadow-lg hover:shadow-emerald-600/20"
+              className="px-6 py-3 bg-slate-50 hover:bg-violet-600 text-slate-700 hover:text-white rounded-2xl font-black text-sm uppercase tracking-wider transition-all shadow-sm hover:shadow-lg hover:shadow-violet-600/20"
             >
               Exit
             </button>
             <div
-              className="w-12 h-12 rounded-2xl border-2 border-slate-200 flex items-center justify-center bg-white cursor-pointer hover:border-emerald-500 hover:shadow-xl hover:shadow-emerald-500/20 transition-all overflow-hidden"
+              className="w-12 h-12 rounded-2xl border-2 border-slate-200 flex items-center justify-center bg-white cursor-pointer hover:border-violet-500 hover:shadow-xl hover:shadow-violet-500/20 transition-all overflow-hidden"
               onClick={() => navigate('/profile')}
             >
               {profileImage || <UserIcon className="w-6 h-6 text-slate-600" />}
             </div>
           </div>
         </div>
+
 
       </div>
     </nav>

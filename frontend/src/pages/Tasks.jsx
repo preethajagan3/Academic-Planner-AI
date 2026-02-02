@@ -209,8 +209,8 @@ const Tasks = () => {
                         <button
                           onClick={() => handleToggleComplete(task)}
                           className={`w-8 h-8 rounded-full border-2 flex items-center justify-center transition-all ${task.completed
-                            ? 'bg-green-500 border-green-500 text-white shadow-lg shadow-green-100 dark:shadow-none'
-                            : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-primary-500'
+                            ? 'bg-violet-500 border-violet-500 text-white shadow-lg shadow-violet-100 dark:shadow-none'
+                            : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-violet-500'
                             }`}
                         >
                           {task.completed && <CheckIcon className="w-5 h-5" />}
@@ -249,7 +249,7 @@ const Tasks = () => {
                             </div>
                           )}
                           <div className="flex items-center gap-2">
-                            <span className={`w-2 h-2 rounded-full ${task.priority === 'high' ? 'bg-red-500' : task.priority === 'medium' ? 'bg-amber-500' : 'bg-emerald-500'
+                            <span className={`w-2 h-2 rounded-full ${task.priority === 'high' ? 'bg-red-500' : task.priority === 'medium' ? 'bg-amber-500' : 'bg-green-500'
                               }`}></span>
                             <span className="text-slate-400 font-bold text-[11px] uppercase tracking-wider">{task.priority}</span>
                           </div>

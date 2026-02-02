@@ -40,7 +40,7 @@ const Sidebar = () => {
             <span>{item.icon}</span>
             <span className="text-sm font-bold">{item.name}</span>
             {item.name === 'Inbox' && unreadCount > 0 && (
-              <span className="ml-auto w-5 h-5 rounded-full bg-emerald-500 text-[10px] font-black text-white flex items-center justify-center shadow-lg shadow-emerald-500/20">
+              <span className="ml-auto w-5 h-5 rounded-full bg-violet-500 text-[10px] font-black text-white flex items-center justify-center shadow-lg shadow-violet-500/20">
                 {unreadCount}
               </span>
             )}
@@ -50,10 +50,11 @@ const Sidebar = () => {
 
       <div className="p-8 mt-auto border-t border-slate-100 mb-6">
         <div className="flex items-center gap-3">
-          <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
+          <div className="w-2 h-2 bg-violet-500 rounded-full animate-pulse" />
           <span className="text-[10px] font-black text-slate-400 uppercase tracking-[0.3em]">System Online</span>
         </div>
       </div>
+
     </aside>
   );
 };
