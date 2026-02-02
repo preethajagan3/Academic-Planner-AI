@@ -87,6 +87,8 @@ All critical paths including key user flows, API integrations, and UI responsive
 
 ### 📸 Dashboard (Light Mode)
 ![alt text](image.png)
+<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/4fc3f1d8-578a-4e06-bf5a-0a7ce18d3cd9" />
+
 
 ### 📸 Task Creation
 ![alt text](image-1.png)
@@ -134,4 +136,5 @@ The **Academic Planner AI** currently meets all core requirements. The applicati
 
 **Signed:**
 *Automated Test Generator*
+
 
