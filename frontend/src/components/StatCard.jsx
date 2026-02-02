@@ -146,17 +146,17 @@ const renderVisualization = () => {
 
 
 return (
-  <div className="premium-card group hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between h-52 border-slate-100 shadow-xl shadow-slate-200/50">
+  <div className="premium-card group hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between h-52 border-slate-100 dark:border-slate-800 shadow-xl shadow-slate-200/50 dark:shadow-none bg-white dark:bg-slate-800">
     <div className="flex justify-between items-start">
       <div className="space-y-4">
-        <p className="text-[11px] font-black text-slate-400 uppercase tracking-[0.3em]">
+        <p className="text-[11px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-[0.3em]">
           {title}
         </p>
-        <h3 className="text-5xl font-black text-slate-900 tracking-tighter group-hover:text-emerald-600 transition-colors leading-none">
+        <h3 className="text-5xl font-black text-slate-900 dark:text-white tracking-tighter group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors leading-none">
           {value}
         </h3>
       </div>
-      <div className="w-16 h-16 bg-slate-50 rounded-3xl flex items-center justify-center text-4xl group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-500 shadow-sm">
+      <div className="w-16 h-16 bg-slate-50 dark:bg-slate-700 rounded-3xl flex items-center justify-center text-4xl group-hover:scale-110 group-hover:bg-violet-600 group-hover:dark:bg-violet-500 group-hover:text-white transition-all duration-500 shadow-sm">
         {icon}
       </div>
     </div>

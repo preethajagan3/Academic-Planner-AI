@@ -249,7 +249,7 @@ const Tasks = () => {
                             </div>
                           )}
                           <div className="flex items-center gap-2">
-                            <span className={`w-2 h-2 rounded-full ${task.priority === 'high' ? 'bg-red-500' : task.priority === 'medium' ? 'bg-amber-500' : 'bg-green-500'
+                            <span className={`w-2 h-2 rounded-full ${task.priority === 'high' ? 'bg-red-500' : task.priority === 'medium' ? 'bg-amber-500' : 'bg-violet-500'
                               }`}></span>
                             <span className="text-slate-400 font-bold text-[11px] uppercase tracking-wider">{task.priority}</span>
                           </div>

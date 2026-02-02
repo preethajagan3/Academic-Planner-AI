@@ -29,13 +29,13 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="fixed left-0 top-0 h-screen w-64 bg-white border-r border-slate-200/50 flex flex-col pt-28 px-4 z-40 hidden lg:flex overflow-y-auto">
+    <aside className="fixed left-0 top-0 h-screen w-64 bg-white dark:bg-slate-900 border-r border-slate-200/50 dark:border-slate-800 flex flex-col pt-28 px-4 z-40 hidden lg:flex overflow-y-auto transition-colors duration-300">
       <nav className="flex-1 space-y-2 pb-6">
         {navItems.map((item) => (
           <NavLink
             key={item.path}
             to={item.path}
-            className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''}`}
+            className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''} dark:text-slate-400 dark:hover:text-white`}
           >
             <span>{item.icon}</span>
             <span className="text-sm font-bold">{item.name}</span>
@@ -48,10 +48,10 @@ const Sidebar = () => {
         ))}
       </nav>
 
-      <div className="p-8 mt-auto border-t border-slate-100 mb-6">
+      <div className="p-8 mt-auto border-t border-slate-100 dark:border-slate-800 mb-6">
         <div className="flex items-center gap-3">
           <div className="w-2 h-2 bg-violet-500 rounded-full animate-pulse" />
-          <span className="text-[10px] font-black text-slate-400 uppercase tracking-[0.3em]">System Online</span>
+          <span className="text-[10px] font-black text-slate-400 dark:text-slate-600 uppercase tracking-[0.3em]">System Online</span>
         </div>
       </div>
 
