@@ -86,7 +86,6 @@ All critical paths including key user flows, API integrations, and UI responsive
 ## 5. Visual Evidence (Screenshots)
 
 ### 📸 Dashboard (Light Mode)
-![alt text](image.png)
 <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/4fc3f1d8-578a-4e06-bf5a-0a7ce18d3cd9" />
 
 
@@ -94,28 +93,28 @@ All critical paths including key user flows, API integrations, and UI responsive
 ![alt text](image-1.png)
 
 ### 📸 Visual Planner 
-![alt text](image-2.png)
+<img width="1918" height="868" alt="image" src="https://github.com/user-attachments/assets/69024a78-a616-4f4e-baee-d9e4918d9222" />
 
 ### 📸 Time Table Scheduler
-![alt text](image-3.png)
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/865d0afd-87f7-4f98-8406-a71a629b3870" />
 
 ### 📸 Analytical Metrics
-![alt text](image-4.png)
+<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/7c3145d5-6d51-43e0-8410-15d1423ecb03" />
 
 ### 📸 Smart AI scheduler for Optimal slots
-![alt text](image-5.png)
+<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/4aeec22c-2733-435a-bd12-708d91e9c001" />
 
 ### 📸 Personalized Recommendation
-![alt text](image-6.png)
+<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/f2fbbf92-f579-4d61-9632-6ca02aa2b87b" />
 
 ### 📸 Inbox Notifications for dealine activity
-![alt text](image-7.png)
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/6680094f-901b-4a52-8204-4d914bfaef41" />
 
 ### 📸 Profile
-![alt text](image-8.png)
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/1894ba68-c88c-4d84-8890-cb2166b2f3f0" />
 
 ### 📸 ChatBot for quick queries
-![alt text](image-10.png)
+<img width="1667" height="789" alt="image" src="https://github.com/user-attachments/assets/49a66bc8-2872-4e0f-9ad6-34626c7304eb" />
 
 ---
 
@@ -136,5 +135,6 @@ The **Academic Planner AI** currently meets all core requirements. The applicati
 
 **Signed:**
 *Automated Test Generator*
+
 
 
