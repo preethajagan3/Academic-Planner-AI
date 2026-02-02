@@ -21,8 +21,12 @@ function App() {
   const { profile } = useSelector((state) => state.user);
 
   useEffect(() => {
-    // Switch to light theme for the new premium design
-    document.documentElement.classList.remove('dark');
+    // Check system preference or localStorage for dark mode
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   }, []);
 
   return (
