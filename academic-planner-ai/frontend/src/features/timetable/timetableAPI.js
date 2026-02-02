@@ -2,22 +2,23 @@ import api from '../../services/api';
 
 export const timetableAPI = {
   getTimetable: async () => {
-    const response = await api.get('/timetable');
+    const response = await api.get('/api/timetable');
     return response.data;
   },
 
   createTimetableEntry: async (entryData) => {
-    const response = await api.post('/timetable', entryData);
+    const response = await api.post('/api/timetable', entryData);
     return response.data;
   },
 
   updateTimetableEntry: async (id, entryData) => {
-    const response = await api.put(`/timetable/${id}`, entryData);
+    const response = await api.put(`/api/timetable/${id}`, entryData);
     return response.data;
   },
 
   deleteTimetableEntry: async (id) => {
-    const response = await api.delete(`/timetable/${id}`);
+    const response = await api.delete(`/api/timetable/${id}`);
     return response.data;
   },
 };
+
