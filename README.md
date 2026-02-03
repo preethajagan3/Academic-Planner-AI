@@ -56,7 +56,7 @@
 
 ---
 
-##  Snapshots
+##  Screenshots
 Dashboard
 <img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/5e1b26c8-5cae-4900-9614-f798dfde9506" />
 
