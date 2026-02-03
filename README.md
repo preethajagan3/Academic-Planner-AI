@@ -1,40 +1,40 @@
-# 🎓 Academic Planner AI (Smart Study OS)
+#  Academic Planner AI (Smart Study OS)
 
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-FF4500?style=for-the-badge&logo=vercel)](https://academic-planner-ai-ojxe.vercel.app)
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **Academic Planner AI** is not just a to-do list; it's an intelligent operating system for students. By combining modern web technologies with **Generative AI**, it transforms chaos into structured success. It helps students track deadlines, prioritize workloads, and receive personalized study advice—all in a stunning, distraction-free environment.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🧠 AI-Powered Insights (Gemini Core)
+###  AI-Powered Insights (Gemini Core)
 - **Smart Recommendations:** The AI analyzes your pending tasks and suggests the best study order.
 - **Micro-Motivation:** Get personalized encouragement based on your current workload.
 - **Workload analysis:** Automatically detects when you are overloaded and suggests breaks.
 
-### 🎨 Premium User Experience
+###  Premium User Experience
 - **Study Pulse:** A real-time efficiency meter that visualizes your productivity.
 - **Global Dark Mode:** Seamless toggle between "Focus Day" and "Midnight Study" themes.
 - **Dynamic Dashboard:** Widgets that adapt to your progress (e.g., "Peak Performance" vs. "Steady Progress").
 
-### ⚡ Intelligent Task Management
+###  Intelligent Task Management
 - **Urgency Ranking:** Automatically flags high-priority deadlines.
 - **Priority Stream:** A dedicated view for tasks that need immediate attention.
 - **Visual Progress:** Beautiful charts and circular progress indicators for completion rates.
 
-### 🔔 Smart Notifications system
+###  Smart Notifications system
 - **Automated Reminders:** Never miss a deadline with automated email alerts via **Resend**.
 - **Cron Jobs:** Backend schedulers that wake up to check your timetable for you.
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### **Frontend (Client)**
 - **Framework:** React.js (Vite)
@@ -62,7 +62,7 @@
 
 ---
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 1.  **Clone the Repository**
     ```bash
@@ -104,15 +104,9 @@
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request for any feature enhancements.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
