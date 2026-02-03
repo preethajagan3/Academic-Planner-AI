@@ -139,5 +139,5 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ---
 
 <p align="center">
-  Made with 💜 by Preetha
+  Done by Preetha
 </p>
