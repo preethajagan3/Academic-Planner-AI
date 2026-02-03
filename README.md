@@ -56,9 +56,37 @@
 
 ---
 
-## 📸 Snapshots
+##  Snapshots
+Dashboard
+<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/5e1b26c8-5cae-4900-9614-f798dfde9506" />
 
-*(Add your screenshots here)*
+Task creation
+<img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/7eb108d2-7848-440d-b1b9-c9ea8d00a30e" />
+
+Planner
+<img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/f852a9d5-5b4c-446b-9771-6adc183761ff" />
+
+time table
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/65a507f4-9732-4ce6-9030-f00978d6605e" />
+
+Metrics
+<img width="1917" height="871" alt="image" src="https://github.com/user-attachments/assets/c2ac635b-88b8-4505-b81a-c0a2fff3c50f" />
+
+Scheduler
+<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/8c2e76bb-321e-4324-9c05-a9453ece151a" />
+
+Personalized Recommendation
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/c7d8b358-6df8-47e8-aaaa-4e2fc47635ed" />
+
+Notification
+<img width="1913" height="881" alt="image" src="https://github.com/user-attachments/assets/663d5b19-deac-43ee-a1e6-0431926a7dff" />
+
+Profile
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/f1dcdccc-d449-409f-b03a-98b3d73b9594" />
+
+Chatbot for Quick Queries
+<img width="1663" height="788" alt="image" src="https://github.com/user-attachments/assets/40bc2d08-78c1-4215-b658-8cb03ff47fbe" />
+
 
 ---
 
